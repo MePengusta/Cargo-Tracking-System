@@ -1,0 +1,55 @@
+﻿body, html, form, table { height:100%; }
+            table { border:2px solid gray; }
+#head
+{
+    
+      background-color:#4A96AD;
+  
+ 
+    }
+    #Panel1
+    {
+        
+        padding-left:300px;
+        }
+h1 {
+  
+  margin: 1px auto;
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Lemonada', cursive;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+}
+
+
+form
+{
+    padding-top : 20%;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.red
+{
+    margin-bottom:30px;
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}

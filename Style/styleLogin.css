@@ -1,0 +1,78 @@
+﻿body {
+  background:url(http://www.propertybankevents.com/wp-content/uploads/2015/07/using-direct-mail-real-estate-investing-property-bank.jpg) ;
+  background-size : 100%;
+  
+  //
+}
+
+h1 {
+  display: table;
+  margin: 40px auto;
+  color: red;
+  font: 30px Helvetica;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+form {
+  display: table;
+  margin: 40px auto;
+}
+  
+  label {
+    position: relative;
+    display: block;
+    top: 0px;
+    left: 0px;
+    height: 450px;
+}
+    
+   input {
+      font: 18px Helvetica, Arial, sans-serif;
+      box-sizing: border-box;
+      display: block;
+      border: none;
+      padding: 20px;
+      width: 300px;
+      margin-bottom: 20px;
+      font-size: 18px;
+      outline: none;
+      transition: all 0.2s ease-in-out;}
+ 
+footer{
+	padding: 0;
+	margin: 0;
+	 background:url(../images/footer-bg.png) no-repeat;
+	 background-size:100%;
+    position: absolute;
+    bottom: 0;
+    left : 0;
+    border:1px solid #666;
+    width : 100%;
+
+}
+
+footer p{
+	color: #ffffff;
+	font-family: 'Lemonada', cursive;	
+	padding-top: 40px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 40px;
+	margin: 0;
+	text-align: center;
+}
+#loginButton
+{
+    transition: all 0.2s ease-in-out;
+    font: 18px Helvetica, Arial, sans-serif;
+    border: none;
+    background: #1aaf75;
+    color: #fff;
+    padding: 16px 40px;
+    }
+    
+#loginButton : hover
+{
+    background: #109f67;
+    }    
